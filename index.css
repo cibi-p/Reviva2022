@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body{
     margin:0;
 }
@@ -30,6 +32,7 @@ body{
     font-size:14px;
     font-weight:bold;
     width:100px;
+    letter-spacing:1px;
 }
 .logo{
     display:block;
@@ -37,15 +40,19 @@ body{
     height:auto;
 }
 .hero-section{
-    background-image:linear-gradient(rgba(255,255,255, 0.65),rgba(255,255,255, 0.65)),url("img/ecedep.jpg");
+    background-image:linear-gradient(rgba(255,255,255, 0.7),rgba(255,255,255, 0.9)),url("img/ecedep.jpg");
     display:block;
-    width:100%;
     height:93vh;
-    background-repeat:none;
+    width:100%;
     background-size:cover;
     background-position:center;
     padding-left:50px;
     padding-right:50px;
+    box-sizing:border-box;    
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
 }
 .ecedep-text{
    font-size:24px;
@@ -103,5 +110,67 @@ body{
     color:#2474D2;
     font-weight:bolder;
     letter-spacing:2px;
-    margin-top:30px;
+    margin-top:50px;
+}
+.gceb-text{
+    font-family:'Rubik', sans-serif;
+    color:#2E1568;
+    font-size:24px;
+    font-style:bold;
+    font-weight:900px;
+    letter-spacing:3px;
+    line-height:1.2;
+}
+.gceb-dep{
+    font-family:'Rubik', sans-serif;
+    color:#2E1568;
+    font-size:18px;
+    font-style:bold;
+    font-weight:900px;
+    letter-spacing:3px;
+    margin-top:10px;
+}
+.Gceb-present{
+    font-family:'Rubik', sans-serif;
+    font-weight:lighter;
+    font-size:14px;
+    color:#2E1568;
+    margin:20px 0;
+    letter-spacing:3px;
+}
+
+.Gceb-Reviva, .Gceb-Reviva *{
+    font-family: 'Permanent Marker', cursive;
+    font-size:48px;
+    color:#FB0AA6;
+    letter-spacing:3px;
+}
+.gceb-Reviva-22{
+    font-size:24px;
+}
+
+.Registration-link{
+    display:block;
+    text-decoration:none;
+    background-color:#FB0AA6;
+    color:white;
+    padding:10px 50px;
+    border-radius:10px;
+    font-weight:24px;
+    font-family:'Rubik', sans-serif;
+    letter-spacing:3px;
+    border:1px solid white;
+    height:auto;
+    width:max-content;
+    margin-top:40px;
+}
+.gceb-nte{
+    font-family:'Rubik', sans-serif;
+    font-weight:lighter;
+    font-size:14px;
+    color:#2E1568;
+    letter-spacing:3px;
+}
+.hero-right-section{
+    width:400px;
 }
