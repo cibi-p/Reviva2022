@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@800&display=swap');
+body{
+    margin:0;
+}
+*{
+    margin:0px;
+}
+.navbar{
+    display:flex;
+    height:54px;
+    background-color:#2E1568;
+    padding-left:50px;
+    padding-right:50px;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-link-container{
+    display:flex;
+    flex-direction:row;
+}
+.navlinks{
+    font-family:'Rubik', sans-serif;
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    width:100px;
+}
+.logo{
+    display:block;
+    width:180px;
+    height:auto;
+}
+.hero-section{
+    background-image:linear-gradient(rgba(255,255,255, 0.65),rgba(255,255,255, 0.65)),url("img/ecedep.jpg");
+    display:block;
+    width:100%;
+    height:93vh;
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    padding-left:50px;
+    padding-right:50px;
+}
+.ecedep-text{
+   font-size:24px;
+   font-family:'Special Elite', cursive;
+   writing-mode:vertical-lr;
+   text-orientation:upright;
+   display:block;
+   width:max-content;
+   color:#2E1568;
+   position:relative;
+   top:-40px;
+}
+
+.ecedep-ece{
+    font-size:144px;
+    font-family:'Special Elite', cursive;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    display:block;
+    width:max-content;
+    color:#2E1568;
+    position:relative;
+    width:max-content;
+ }
+.ECEdep{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    width:max-content;
+}
+.welcome-hero-event{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:max-content;
+}
+.welcome-covver{
+    font-family:'Sansita Swashed', cursive;
+    letter-spacing:5px;
+    font-size:36px;
+    width:max-content;
+}
+.welcom-quote{
+    color:#FB0AA6;
+}
+.welcome-txtt{
+    font-family: 'Anton', sans-serif;
+    font-size:36px;
+    color:#FB0AA6;
+    width:max-content;
+}
+.welcome-venue{
+    font-family: 'Mali', cursive;
+    font-size:24px;
+    color:#2474D2;
+    font-weight:bolder;
+    letter-spacing:2px;
+    margin-top:30px;
+}
