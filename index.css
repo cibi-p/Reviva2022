@@ -207,6 +207,9 @@ body{
     display:flex;
     flex-direction:row;
     align-items:center;
+}
+.intro:nth-child(odd){
+    
     background-color:#F3EEFF;
 }
 
@@ -219,6 +222,19 @@ body{
 }
 
 .intro-video{
+    display:block;
+    margin:auto;
+}
+
+/*about section*/
+.about-description, .description{
+    width:900px;
+    font-family:sans-serif;
+    font-size:22px;
+    text-align:justify;
+    color:#2E1568;
+    letter-spacing:3;
+    line-height:1.5;
     display:block;
     margin:auto;
 }
@@ -347,5 +363,9 @@ body{
     }
     .intro{
         flex-direction:column;
+    }
+    .about-description, .description{
+        width: 100%;
+        font-size:18px;
     }
 }
