@@ -92,7 +92,7 @@ body{
 .welcome-covver{
     font-family:'Sansita Swashed', cursive;
     letter-spacing:5px;
-    font-size:36px;
+    font-size:30px;
     width:max-content;
 }
 .welcom-quote{
@@ -155,11 +155,11 @@ body{
     background-color:#FB0AA6;
     color:white;
     padding:10px 50px;
-    border-radius:10px;
-    font-weight:24px;
+    font-size:14px;
+    border-radius:50px;
     font-family:'Rubik', sans-serif;
     letter-spacing:3px;
-    border:1px solid white;
+    border:1px solid #2E1568;
     height:auto;
     width:max-content;
     margin-top:40px;
@@ -172,5 +172,58 @@ body{
     letter-spacing:3px;
 }
 .hero-right-section{
-    width:400px;
+    width:350px;
+}
+
+
+@media (max-width:1100px){
+    .ecedep-text{
+        font-size:18px;
+        top:-20px;
+    }
+    .ecedep-ece{
+        font-size:90px;
+    }
+    .welcome-covver{
+        font-size:24px;
+    }
+    .welcome-txtt{
+        font-size:30px;
+    }
+    .welcome-venue{
+        font-size:20px;
+    }
+    .gceb-text{
+        font-size:18px;
+    }
+    .gceb-dep{
+        font-size:14px;
+    }
+    .Gceb-present{
+        font-size:10px;
+    }
+    .Gceb-Reviva{
+        font-size:36px;
+    }
+    .gceb-Reviva-22{
+        font-size:18px;
+    }
+    .Registration-link{
+        font-size:12px;
+    }
+    .gceb-nte{
+        font-size:10px;
+    }
+    .hero-right-section{
+        width:280px;
+    }
+}
+
+@media (max-width:900px){
+    .ecedep-text{
+        display:none;
+    }
+    .ecedep-ece{
+        display:none;
+    }
 }
