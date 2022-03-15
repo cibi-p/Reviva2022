@@ -178,7 +178,24 @@ body{
 .hero-right-section{
     width:350px;
 }
+.icon{
+    text-decoration:none;
+}
 
+#menu-clickk{
+    display:none;
+    background-color:#2E1568;
+    border-top:1px solid #fff;
+}
+.navlinks1{
+    display:block;
+    font-family:'Rubik', sans-serif;
+    letter-spacing:3px;
+    text-align:center;
+    text-decoration:none;
+    line-height:2.2;
+    color:white;
+}
 
 @media (max-width:1100px){
     .ecedep-text{
@@ -258,7 +275,8 @@ body{
         margin:30px auto;
     }
     .welcome-venue{
-        font-size:14px;
+        font-size:16px;
+        margin-top:20px;
     }
     .welcome-hero-event{
         margin:auto;
@@ -272,5 +290,11 @@ body{
     .menuu{
         display:block !important;
         color:white;
+    }
+    .Gceb-Reviva{
+        text-align:center;
+    }
+    .gceb-nte{
+        text-align:center;
     }
 }
