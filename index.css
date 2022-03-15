@@ -66,6 +66,10 @@ body{
    top:-40px;
 }
 
+.menuu{
+    display:none !important;
+}
+
 .ecedep-ece{
     font-size:144px;
     font-family:'Special Elite', cursive;
@@ -220,10 +224,53 @@ body{
 }
 
 @media (max-width:900px){
+    .navbar{
+        padding-left:20px;
+        padding-right:20px;
+    }
     .ecedep-text{
-        display:none;
+        font-size:16px;
+        writing-mode:horizontal-tb;
+        position:relative;
+        top:1px;
     }
     .ecedep-ece{
+        font-size:60px;
+        writing-mode:horizontal-tb;
+    }
+    .ECEdep{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        margin:auto;
+    }
+    .hero-section{
+        flex-wrap:wrap;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .hero-right-section{
+        display:block;
+        margin:auto;
+    }
+    .Registration-link{
+        margin:30px auto;
+    }
+    .welcome-venue{
+        font-size:14px;
+    }
+    .welcome-hero-event{
+        margin:auto;
+    }
+    .logo{
+        width:120px;
+    }
+    .navlinks{
         display:none;
+    }
+    .menuu{
+        display:block !important;
+        color:white;
     }
 }
