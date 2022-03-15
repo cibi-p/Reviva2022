@@ -266,6 +266,7 @@ body{
         flex-wrap:wrap;
         padding-left:20px;
         padding-right:20px;
+        background-position-x:1052px;
     }
     .hero-right-section{
         display:block;
