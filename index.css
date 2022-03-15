@@ -186,6 +186,7 @@ body{
     display:none;
     background-color:#2E1568;
     border-top:1px solid #fff;
+    padding:20px 0;
 }
 .navlinks1{
     display:block;
@@ -195,6 +196,31 @@ body{
     text-decoration:none;
     line-height:2.2;
     color:white;
+}
+
+/*introsection*/
+.intro{
+    padding:0 50px;
+    height:100vh;
+    width: 100%;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background-color:#F3EEFF;
+}
+
+.intro-text , .topic-title{
+    font-size:90px;
+    font-family:'Special Elite', cursive;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    color:#2E1568;
+}
+
+.intro-video{
+    display:block;
+    margin:auto;
 }
 
 @media (max-width:1100px){
@@ -237,6 +263,17 @@ body{
     }
     .hero-right-section{
         width:280px;
+    }
+    .intro{
+        padding:0 20px;
+        box-sizing:border-box;
+    }
+    .intro-video{
+        width:500px;
+        height:281px;
+    }
+    .intro-text, .topic-title{
+        font-size:80px;
     }
 }
 
@@ -297,5 +334,18 @@ body{
     }
     .gceb-nte{
         text-align:center;
+    }
+    .intro-video{
+        width:100%;
+        height:170px;
+        box-sizing:border-box;
+    }
+    .intro-text, .topic-title{
+        font-size:40px;
+        writing-mode:horizontal-tb;
+        margin-top:60px;
+    }
+    .intro{
+        flex-direction:column;
     }
 }
