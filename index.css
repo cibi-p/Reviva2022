@@ -242,40 +242,82 @@ body{
 
 /*team section*/
 .team-name{
-    writing-mode:vertical-lr;
-    text-orientation:upright;
     font-family:'Rubik', sans-serif;
     color:#fff;
-    font-size:16px;
+    font-size:30px;
     background-color:#2E1568;
     text-align:center;
+    width:250px !important;
+    height:100px;
+    position:relative;
+    border-radius:20px 0 0 20px;
 }
 .team-img{
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     background-color:#fff;
-    border-top-right-radius:45px;
-    border-bottom-right-radius:45px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
 }
-
-.team{
+.team-1{
     display:flex;
     flex-direction:row;
+    border-radius:20px;
+    box-shadow: 1px 1px 10px 1px gray;
 }
-
 .team-container{
     display:grid;
-    grid-template-columns:220px 220px;
-    grid-gap:60px;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
     justify-content:center;
     align-items:center;
     margin:auto;
 }
-
-.team-img:nth-child(odd){
-    border-radius:45px 0 0 45px;
+.team-name p{
+    padding-top:30px;
 }
 
+.team-name:nth-child(even){
+    border-radius:0 20px 20px 0;
+}
+
+.team-img:nth-child(odd){
+    border-radius:20px 0 0 20px;
+}
+
+/*fotter section*/
+.footerr{
+    background-color:#2E1568;
+    padding:4px 50px;
+    padding-top:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    height:200px;
+    align-items:center;
+}
+.fotter-title{
+    font-family:'Rubik', sans-serif;
+    font-size:18px;
+    color:white;
+}
+.navlinks2{
+    color:white;
+    text-decoration:none;
+    display:block;
+    font-size:14px;
+    margin:5px 0px;
+}
+.sitemap{
+    height:150px;
+}
+.sitemap ul li{
+    color:white;
+}
+.bargur-image{
+    width:100px;
+    height:130px;
+}
 @media (max-width:1100px){
     .ecedep-text{
         font-size:18px;
@@ -409,15 +451,28 @@ body{
         font-size:16px;
         line-height:1.5;
     }
-    .team-img{
-        width:150px;
-        height:150px;
+    .footerr{
+        padding:4px 20px;
+        position:relative;
     }
-    .team-name{
+    .fotter-title{
         font-size:12px;
     }
+    .navlinks2{
+        font-size:10px;
+    }
+    .bargur-image{
+        position:absolute;
+        width:60px;
+        height:75px;
+        bottom:30px;
+        right:20%;
+    }
     .team-container{
-        grid-gap:20px;
-        column-gap:20px;
+        grid-template-columns:1fr;
+    }
+    .team-name p{
+        font-size:20px;
+        margin-top:5px;
     }
 }
