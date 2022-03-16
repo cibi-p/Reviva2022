@@ -67,7 +67,7 @@ body{
    top:-40px;
 }
 
-.menuu{
+.icon{
     display:none !important;
 }
 
@@ -240,6 +240,42 @@ body{
     margin:auto;
 }
 
+/*team section*/
+.team-name{
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    font-family:'Rubik', sans-serif;
+    color:#fff;
+    font-size:16px;
+    background-color:#2E1568;
+    text-align:center;
+}
+.team-img{
+    width:200px;
+    height:200px;
+    background-color:#fff;
+    border-top-right-radius:45px;
+    border-bottom-right-radius:45px;
+}
+
+.team{
+    display:flex;
+    flex-direction:row;
+}
+
+.team-container{
+    display:grid;
+    grid-template-columns:220px 220px;
+    grid-gap:60px;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+
+.team-img:nth-child(odd){
+    border-radius:45px 0 0 45px;
+}
+
 @media (max-width:1100px){
     .ecedep-text{
         font-size:18px;
@@ -343,8 +379,10 @@ body{
     .navlinks{
         display:none;
     }
-    .menuu{
+    .icon{
         display:block !important;
+    }
+    .menuu{
         color:white;
     }
     .Gceb-Reviva{
@@ -370,5 +408,16 @@ body{
         width: 95%;
         font-size:16px;
         line-height:1.5;
+    }
+    .team-img{
+        width:150px;
+        height:150px;
+    }
+    .team-name{
+        font-size:12px;
+    }
+    .team-container{
+        grid-gap:20px;
+        column-gap:20px;
     }
 }
