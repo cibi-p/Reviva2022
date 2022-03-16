@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+.event{
+    width:100%;
+    height:94vh;
+    box-sizing:border-box;
+    padding:0px 50px;
+}
+*{
+    box-sizing:border-box;
+}
+.event-title{
+   font-size:40px;
+   font-family:'Rubik', sans-serif;
+   text-align:center;
+   margin:70px 0;
+   color:#2E1568;
+   margin-bottom:0;
+   width:350px;
+}
+
+.card1{
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    border-radius:20px;
+}
+.card-image{
+    width:100%;
+    border-radius:20px 20px 0 0;
+}
+.technical-event{
+    display:grid;
+    grid-template-columns:repeat(4,200px);
+    grid-gap:40px;
+    width:max-content;
+    margin:auto;
+    align-items:center;
+}
+.techinal-event-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:94%;
+    box-sizing:border-box;
+}
+.event-1{
+    width:100%;
+    height:94vh;
+    box-sizing:border-box;
+    padding:0px 50px;
+    background-color:#F3EEFF;
+}
+.title{
+    display:block;
+    width:100%;
+   font-family:'Rubik', sans-serif;
+   font-size:14px;
+   color:white;
+   background-color:#2E1568;
+   text-align:center;
+   padding:10px 0px;
+   border-radius:0 0 20px 20px;
+}
