@@ -28,6 +28,7 @@
 .card-image{
     width:100%;
     border-radius:20px 20px 0 0;
+    height:150px;
 }
 .technical-event{
     display:grid;
@@ -37,6 +38,7 @@
     margin:auto;
     align-items:center;
 }
+
 .techinal-event-container{
     display:flex;
     flex-direction:column;
@@ -62,4 +64,55 @@
    text-align:center;
    padding:10px 0px;
    border-radius:0 0 20px 20px;
+}
+.register-link{
+    display:block;
+    width:200px;
+    background-color:#2E1568;
+    color:white;
+    text-decoration:white;
+    padding:10px 0;
+    text-align:center;
+    border-radius:40px;
+    font-family:'Rubik', sans-serif;
+    font-size:16px;
+    margin:auto;
+}
+.Register-fee{
+    font-family: 'Rubik',sans-serif;
+    font-size:14px;
+    display:block;
+    margin-top:10px;
+    text-align:center;
+}
+div.register-container{
+    
+}
+@media (max-width:1100px)
+{
+    .technical-event{
+        
+    grid-template-columns:repeat(3,200px);
+    }
+    .event{
+        height:1100px;
+        padding-bottom:20px;
+    }
+    .event-1{
+        height:850px;
+    }
+}
+@media (max-width:800px)
+{
+    .technical-event{
+        
+    grid-template-columns:repeat(1,200px);
+    }
+    .event{
+        height:2000px;
+        padding-bottom:20px;
+    }
+    .event-1{
+        height:1800px;
+    }
 }
