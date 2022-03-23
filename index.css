@@ -225,6 +225,8 @@ body{
 .intro-video{
     display:block;
     margin:auto;
+    width:60%;
+    height:auto;
 }
 
 /*about section*/
